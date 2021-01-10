@@ -17,7 +17,7 @@ module.exports = merge(common, {
     // Extracts CSS into separate files
     // Note: style-loader is for development, MiniCssExtractPlugin is for production
     new MiniCssExtractPlugin({
-      filename: 'styles/[name].[contenthash].css',
+      filename: './styles/[name].[contenthash].css',
       chunkFilename: '[id].css',
     }),
   ],
