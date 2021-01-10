@@ -68,4 +68,9 @@ module.exports = {
       {test: /\.(woff(2)?|eot|ttf|otf|svg|)$/, type: 'asset/inline'},
     ],
   },
+  externalsType: 'script',
+  externals: {
+    three: ['https://unpkg.com/three/build/three.js', 'THREE'],
+    arjs: ['https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar.js', 'THREEx'],
+  }
 }

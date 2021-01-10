@@ -1,6 +1,7 @@
 import '../styles/index.scss';
 
-import initThree from './plugins/three/three-init';
+// import initThree from './plugins/three/three-init';
+import initAr from './plugins/ar-init';
 
 console.log(
   `%c Yann's ThreeJS boilerplate`,
@@ -9,5 +10,6 @@ console.log(
 
 const threeEl = document.querySelector('.three-js');
 if (threeEl) {
-  initThree(threeEl);
+  // initThree(threeEl);
+  initAr(threeEl);
 }
