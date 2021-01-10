@@ -11,7 +11,7 @@ module.exports = merge(common, {
   output: {
     path: paths.build,
     publicPath: '/',
-    filename: 'js/[name].[contenthash].bundle.js',
+    filename: './js/[name].[contenthash].bundle.js',
   },
   plugins: [
     // Extracts CSS into separate files
