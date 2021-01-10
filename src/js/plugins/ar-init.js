@@ -5,7 +5,7 @@ import createTorusKnot from './three/three-torusKnot';
 
 THREEx.ArToolkitContext.baseURL = 'assets/';
 
-const initAr = threeEl => {
+const initAr = () => {
   //////////////////////////////////////////////////////////////////////////////////
   //    Init
   //////////////////////////////////////////////////////////////////////////////////
@@ -17,13 +17,12 @@ const initAr = threeEl => {
     autoResize: true,
     alpha: true
   });
-  // renderer.setSize(threeEl.offsetWidth, threeEl.offsetHeight);
   renderer.setSize(window.innerWidth, window.innerHeight);
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.domElement.style.position = 'absolute'
   renderer.domElement.style.top = '0px'
   renderer.domElement.style.left = '0px'
-  threeEl.appendChild(renderer.domElement);
+  document.body.appendChild(renderer.domElement);
 
 
   // init scene and camera
@@ -46,11 +45,11 @@ const initAr = threeEl => {
 
   var arToolkitSource = new THREEx.ArToolkitSource({
     // to read from the webcam
-    // sourceType : 'webcam',
+    sourceType : 'webcam',
 
     // // to read from an image
-    sourceType : 'image',
-    sourceUrl : THREEx.ArToolkitContext.baseURL + './img.jpg',
+    // sourceType : 'image',
+    // sourceUrl : THREEx.ArToolkitContext.baseURL + './img.jpg',
 
     // to read from a video
     // sourceType : 'video',
@@ -58,10 +57,10 @@ const initAr = threeEl => {
   })
 
   arToolkitSource.init(function onReady(){
-    threeEl.appendChild(arToolkitSource.domElement);
     setTimeout(() => {
-        onResize()
-    }, 2000);
+      onResize();
+    }, 1000);
+    onResize();
   })
 
   const onResize = () => {
