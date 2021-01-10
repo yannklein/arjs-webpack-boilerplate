@@ -1,7 +1,7 @@
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter.ttf');
-}
-
 @import 'variables';
 @import 'scaffolding';
+
+// components
+@import "./components/banner";
+@import "./components/app";
+@import "./components/three-canvas";

@@ -1,0 +1,16 @@
+.banner {
+  padding: 80px 0;
+  background: -webkit-linear-gradient( -70deg, rgba(9,9,121,0.6) 11.2%, rgba(144,6,161,0.6) 53.7%, rgba(0,212,255,0.6) 100.2% );
+  background: linear-gradient( -70deg, rgba(9,9,121,0.6) 11.2%, rgba(144,6,161,0.6) 53.7%, rgba(0,212,255,0.6) 100.2% );
+  .content-container {
+    flex-grow: 1;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 16px;
+  }
+}

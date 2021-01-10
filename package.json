@@ -40,5 +40,7 @@
     "type": "git",
     "url": "git@github.com:taniarascia/webpack-boilerplate"
   },
-  "dependencies": {}
+  "dependencies": {
+    "three": "^0.124.0"
+  }
 }
