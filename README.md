@@ -5,7 +5,7 @@
 Sensible webpack 5 boilerplate using Babel, PostCSS and Sass with a hot dev server and an optimized production build.
 
 ## Build on the shoulders of giants
-Thanks to [Tania Rascia](https://www.taniarascia.com). I reuased her Webpack5 boilerplate as a base for this code.
+Thanks to [Tania Rascia](https://www.taniarascia.com). I reused her Webpack5 boilerplate as a base for this code.
 
 ## Installation
 
