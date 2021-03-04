@@ -1,15 +1,18 @@
-# 📦 webpack Boilerplate
+# 📦 ARJS webpack v5 Boilerplate
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Sensible webpack 5 boilerplate using Babel, PostCSS and Sass with a hot dev server and an optimized production build.
 
+## Build on the shoulders of giants
+Thanks to [Tania Rascia](https://www.taniarascia.com). I reuased her Webpack5 boilerplate as a base for this code.
+
 ## Installation
 
-Clone this repo and npm install.
+Clone this repo and yarn install.
 
 ```bash
-npm i
+yarn install
 ```
 
 ## Usage
@@ -17,27 +20,22 @@ npm i
 ### Development server
 
 ```bash
-npm start
+yarn start
 ```
 
 You can view the development server at `localhost:8080`.
 
+#### Test you app with ngrok
+Keep the development server opened, open a new terminal tab.
+Install [ngrok](https://ngrok.com/) and run:
+```bash
+ngrok http 8080 -host-header="localhost:8080"
+```
+
 ### Production build
 
 ```bash
-npm run build
-```
-
-> Note: Install [http-server](https://www.npmjs.com/package/http-server) globally to deploy a simple server.
-
-```bash
-npm i -g http-server
-```
-
-You can view the deploy by creating a server in `dist`.
-
-```bash
-cd dist && http-server
+yarn run build
 ```
 
 ## Features
@@ -48,6 +46,10 @@ cd dist && http-server
 - [PostCSS](https://postcss.org/)
 
 ## Dependencies
+
+### ThreeJS and ARJS through extern a links
+- [three]('https://raw.githack.com/AR-js-org/AR.js/master/three.js/examples/vendor/three.js/build/three.min.js')
+- [ar]('https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar.js')
 
 ### webpack
 
@@ -81,9 +83,10 @@ cd dist && http-server
 - [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) - Extract CSS into separate files
 - [`css-minimizer-webpack-plugin`](https://webpack.js.org/plugins/css-minimizer-webpack-plugin/) - Optimize and minimize CSS assets
 
-## Author
+## Author 
 
-- [Tania Rascia](https://www.taniarascia.com)
+- [Yann Klein](https://www.yannklein.me)
+
 
 ## License
 
