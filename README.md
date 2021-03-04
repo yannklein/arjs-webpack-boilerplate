@@ -47,9 +47,9 @@ yarn run build
 
 ## Dependencies
 
-### ThreeJS and ARJS through extern a links
-- [three]('https://raw.githack.com/AR-js-org/AR.js/master/three.js/examples/vendor/three.js/build/three.min.js')
-- [ar]('https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar.js')
+### ThreeJS and ARJS through external links
+- [`three`](https://threejs.org/)
+- [`ar`](https://ar-js-org.github.io/AR.js-Docs/)
 
 ### webpack
 
