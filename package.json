@@ -1,9 +1,9 @@
 {
-  "name": "webpack-boilerplate",
-  "version": "2.0.0",
-  "description": "Sensible webpack 5 boilerplate using Babel and PostCSS with a hot dev server and an optimized production build.",
+  "name": "arjs-webpack5-boilerplate",
+  "version": "1.0.0",
+  "description": "A static website boilerplate for ThreeJS projects managed via Webpack.",
   "main": "index.js",
-  "author": "Tania Rascia",
+  "author": "Yann Klein",
   "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js",
@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:taniarascia/webpack-boilerplate"
+    "url": "git@github.com:yannklein/arjs-webpack-boilerplate"
   },
   "dependencies": {}
 }
