@@ -1,7 +1,7 @@
 {
   "name": "arjs-webpack5-boilerplate",
   "version": "1.0.0",
-  "description": "A static website boilerplate for ThreeJS projects managed via Webpack.",
+  "description": "A static website boilerplate for ThreeJS + ARJS projects managed via Webpack5.",
   "main": "index.js",
   "author": "Yann Klein",
   "license": "MIT",
