@@ -9,6 +9,10 @@ A static website boilerplate for ThreeJS + ARJS projects managed via Webpack5.
 ## Build on the shoulders of giants
 Thanks to [Tania Rascia](https://www.taniarascia.com). I reused her Webpack5 boilerplate as a base for this code.
 
+Thanks to [ARJS team](https://github.com/AR-js-org/AR.js) for their amazing Web AR plugin.
+
+Thanks to [ThreeJS team](https://threejs.org/) for bringing 3D magic on the web.
+
 ## Installation
 
 Clone this repo and yarn install.
