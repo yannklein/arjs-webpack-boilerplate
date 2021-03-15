@@ -25,7 +25,8 @@ yarn install
 yarn start
 ```
 
-You can view the development server at `localhost:8080`.
+You can view the development server at `localhost:8080` and use the [hiro marker](https://github.com/yannklein/arjs-webpack-boilerplate/raw/master/public/hiro.png).
+Or you can access a marker simulation mode from `http://localhost:8080/?mode=simulation`.
 
 #### Test you app with ngrok
 Keep the development server opened, open a new terminal tab.
