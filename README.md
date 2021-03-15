@@ -39,8 +39,19 @@ ngrok http 8080 -host-header="localhost:8080"
 ### Production build
 
 ```bash
-yarn run build
+yarn build
 ```
+
+### Deplot to Github pages
+
+Run this command:
+
+```bash
+yarn deploy
+```
+And setup Github pages on your repo:
+- Source: `master` branch
+- Folder `/docs`.
 
 ## Features
 
