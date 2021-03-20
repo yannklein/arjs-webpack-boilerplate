@@ -54,8 +54,8 @@ Run this command:
 yarn deploy
 ```
 And setup Github pages on your repo:
-- Source: `master` branch
-- Folder `/docs`.
+- Source: `gh-pages` branch
+- Folder `root`.
 
 ## Features
 
