@@ -10,7 +10,7 @@
     "build": "yarn && cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
     "open-gh": "gh repo view -w || echo 'Oops, looks like you don't have GH CLI, install it from: https://github.com/cli/cli 😎 ",
     "create-gh-pages": "git branch gh-pages -f && git push origin gh-pages -f && gh-pages -d dist && gh repo view -w",
-    "deploy": "yarn build && yarn create-gh-pages && yarn open-gh"
+    "deploy": "yarn build && yarn create-gh-pages && yarn open-gh && Deployed successfully 🚀"
   },
   "keywords": [
     "webpack",
