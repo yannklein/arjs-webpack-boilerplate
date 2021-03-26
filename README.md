@@ -11,10 +11,12 @@ A static website boilerplate for ThreeJS + ARJS projects managed via Webpack5.
 ### Marker-based demo
 Open this [live demo](https://yannklein.github.io/arjs-webpack-boilerplate) and show this [hiro marker](https://github.com/yannklein/arjs-webpack-boilerplate/raw/master/public/hiro.png) to the camera!
 
-### NFT-based (image-based) demo
+You can also checkout this [simulated-marker version](https://yannklein.github.io/arjs-webpack-boilerplate/?mode=simulation). (might need a page refresh, still a bug to fix there..)
+
+### NFT-based (image-based) demo ⚠️ the NFT feature Demo is broken, fix in progress
 Open this [live demo](https://yannklein.github.io/arjs-webpack-boilerplate/?type_nft) and show this [pinball image](https://github.com/yannklein/arjs-webpack-boilerplate/blob/master/public/pinball.jpg) to the camera!
 
-You can also checkout this [simulated-image version](https://yannklein.github.io/arjs-webpack-boilerplate/?mode=simulation&type=nft). (might need a page refresh, still a bug to fix there..)
+You can also checkout this [simulated-image version](https://yannklein.github.io/arjs-webpack-boilerplate/?mode=simulation&type=nft).
 
 ## Build on the shoulders of giants
 Thanks to [Tania Rascia](https://www.taniarascia.com). I reused her Webpack5 boilerplate as a base for this code.
@@ -61,7 +63,7 @@ ngrok http 8080 -host-header="localhost:8080"
 yarn build
 ```
 
-### Deplot to Github pages
+### Deploy to Github pages
 
 Run this command:
 
