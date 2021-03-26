@@ -6,6 +6,10 @@ A static website boilerplate for ThreeJS + ARJS projects managed via Webpack5.
 
 ![IMG_0421](https://user-images.githubusercontent.com/26819547/109923135-af096580-7d01-11eb-9644-afc982c58fea.jpg)
 
+## Demo
+
+Open this [live demo](https://yannklein.github.io/arjs-webpack-boilerplate) and show this [hiro marker](https://github.com/yannklein/arjs-webpack-boilerplate/raw/master/public/hiro.png) to the camera!
+
 ## Build on the shoulders of giants
 Thanks to [Tania Rascia](https://www.taniarascia.com). I reused her Webpack5 boilerplate as a base for this code.
 
