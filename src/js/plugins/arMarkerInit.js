@@ -1,11 +1,11 @@
 import * as THREE from 'three';
-import THREEx from 'ar';
+import THREEx from 'arMarker';
 
 import createTorusKnot from './three/three-torusKnot';
 
 THREEx.ArToolkitContext.baseURL = 'assets/';
 
-const initAr = (mode = 'production') => {
+const initArMarker = (mode = 'production') => {
   //////////////////////////////////////////////////////////////////////////////////
   //    Init
   //////////////////////////////////////////////////////////////////////////////////
@@ -93,7 +93,7 @@ const initAr = (mode = 'production') => {
 
   // create atToolkitContext
   var arToolkitContext = new THREEx.ArToolkitContext({
-    cameraParametersUrl: THREEx.ArToolkitContext.baseURL + './camera_para.dat',
+    cameraParametersUrl: THREEx.ArToolkitContext.baseURL + 'camera_para.dat',
     detectionMode: 'mono'
   })
   // initialize it
@@ -161,4 +161,4 @@ const initAr = (mode = 'production') => {
   })
 }
 
-export default initAr;
+export default initArMarker;

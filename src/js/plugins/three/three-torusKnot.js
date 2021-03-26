@@ -17,9 +17,9 @@ const createTorusKnot = scene => {
   mesh.position.y = 0.5
   scene.add( mesh );
 
-  scene.animationQueue.push(function(delta){
-    mesh.rotation.x += Math.PI*delta
-  })
+  // scene.animationQueue.push(function(delta){
+  //   mesh.rotation.x += Math.PI*delta
+  // })
 };
 
 export default createTorusKnot;
