@@ -13,7 +13,8 @@ Open this [live demo](https://yannklein.github.io/arjs-webpack-boilerplate) and 
 
 You can also checkout this [simulated-marker version](https://yannklein.github.io/arjs-webpack-boilerplate/?mode=simulation). (might need a page refresh, still a bug to fix there..)
 
-### NFT-based (image-based) demo ⚠️ the NFT feature Demo is broken, fix in progress
+### NFT-based (image-based) demo 
+#### ⚠️ the NFT feature Demo is broken, fix in progress
 Open this [live demo](https://yannklein.github.io/arjs-webpack-boilerplate/?type_nft) and show this [pinball image](https://github.com/yannklein/arjs-webpack-boilerplate/blob/master/public/pinball.jpg) to the camera!
 
 You can also checkout this [simulated-image version](https://yannklein.github.io/arjs-webpack-boilerplate/?mode=simulation&type=nft).
