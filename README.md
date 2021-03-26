@@ -8,9 +8,13 @@ A static website boilerplate for ThreeJS + ARJS projects managed via Webpack5.
 
 ## Demo
 
+### Marker-based demo
 Open this [live demo](https://yannklein.github.io/arjs-webpack-boilerplate) and show this [hiro marker](https://github.com/yannklein/arjs-webpack-boilerplate/raw/master/public/hiro.png) to the camera!
 
-You can also checkout this [simulated-marker version](https://yannklein.github.io/arjs-webpack-boilerplate/?mode=simulation). (might need a page refresh, still a bug to fix there..)
+### NFT-based (image-based) demo
+Open this [live demo](https://yannklein.github.io/arjs-webpack-boilerplate/?type_nft) and show this [pinball image](https://github.com/yannklein/arjs-webpack-boilerplate/blob/master/public/pinball.jpg) to the camera!
+
+You can also checkout this [simulated-image version](https://yannklein.github.io/arjs-webpack-boilerplate/?mode=simulation&type=nft). (might need a page refresh, still a bug to fix there..)
 
 ## Build on the shoulders of giants
 Thanks to [Tania Rascia](https://www.taniarascia.com). I reused her Webpack5 boilerplate as a base for this code.
@@ -34,10 +38,15 @@ yarn install
 ```bash
 yarn start
 ```
-
+#### Marker-based version
 You can view the development server at `localhost:8080` and use the [hiro marker](https://github.com/yannklein/arjs-webpack-boilerplate/raw/master/public/hiro.png).
 
 Or you can access a marker simulation mode from `http://localhost:8080/?mode=simulation`.
+
+#### NTF-based version
+You can view the development server at `localhost:8080/?type=nft` and use the [pinball image](https://github.com/yannklein/arjs-webpack-boilerplate/blob/master/public/pinball.jpg).
+
+Or you can access a image simulation mode from `http://localhost:8080/?mode=simulation&type=nft`.
 
 #### Test you app with ngrok
 Keep the development server opened, open a new terminal tab.
