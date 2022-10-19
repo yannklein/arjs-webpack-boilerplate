@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 
 const createTorusKnot = scene => {
-  var geometry  = new THREE.CubeGeometry(1,1,1);
+  var geometry  = new THREE.BoxGeometry(1,1,1);
   var material  = new THREE.MeshNormalMaterial({
     transparent : true,
     opacity: 0.5,

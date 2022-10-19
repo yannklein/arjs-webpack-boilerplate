@@ -71,7 +71,6 @@ module.exports = {
   externalsType: 'script',
   externals: {
     three: ['https://raw.githack.com/AR-js-org/AR.js/master/three.js/examples/vendor/three.js/build/three.min.js', 'THREE'],
-    arMarker: ['https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar.js', 'THREEx'],
-    arNFT: ['https://raw.githack.com/AR-js-org/AR.js/master/three.js/build//ar-nft.js', 'THREEx']
+    arMarker: ['https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex.js', 'THREEx']
   }
 }

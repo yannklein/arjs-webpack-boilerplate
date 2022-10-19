@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import THREEx from 'arNFT';
+import * as THREEx from 'arMarker';
 
 import createTorusKnot from './three/three-torusKnot';
 
