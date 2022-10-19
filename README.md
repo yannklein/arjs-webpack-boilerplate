@@ -43,7 +43,7 @@ You can view the development server at `localhost:8080` and use the [hiro marker
 
 Or you can access a marker simulation mode from `http://localhost:8080/?mode=simulation`.
 
-#### NTF-based version
+#### NTF-based version ⚠️ down! work in progress..
 You can view the development server at `localhost:8080/?type=nft` and use the [pinball image](https://github.com/yannklein/arjs-webpack-boilerplate/blob/master/public/pinball.jpg).
 
 Or you can access a image simulation mode from `http://localhost:8080/?mode=simulation&type=nft`.
